@@ -49,6 +49,14 @@ height: auto;
   padding-top: 100px;
 }
 
+#header {
+margin-left: 35px;
+}
+
+audio {
+  margin: 10px 0 0 10%;
+}
+
 @media only screen and (max-width: 423px) {
   #chef1{
     display: none;
@@ -83,8 +91,4 @@ height: auto;
   img {
     padding-bottom: 15px;
   }
-}
-
-#header {
-margin-left: 35px;
 }

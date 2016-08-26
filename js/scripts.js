@@ -36,6 +36,7 @@ $(document).ready(function() {
     });
     var finalPrice = order1.configurePrice();
     $(".cost").text(finalPrice);
+    $("#mammaMia").hide();
     $("#response").show();
   });
 
@@ -56,7 +57,11 @@ $(document).ready(function() {
   });
 
   $("#gratzie").click(function() {
-    location.reload();
+
+    $(".final-fade").fadeOut(5000, "linear", function() {
+      location.reload()
+    });
+
   });
 
 });
