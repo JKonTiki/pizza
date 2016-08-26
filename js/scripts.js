@@ -39,8 +39,13 @@ $(document).ready(function() {
     $("#response").show();
   });
 
-  $("#order-choice").click(function() {
-    $("#order-section").hide();
+  $("#size-choice").click(function() {
+    $("#size-section").hide();
+    $("#toppings-section").show();
+  });
+
+  $("#toppings-choice").click(function() {
+    $("#toppings-section").hide();
     $("#reaction").show();
   });
 

@@ -1,11 +1,21 @@
 body {
   margin-top: 30px;
   margin-bottom: 30px;
-  background-color: red;
+  background-image: url("../img/embers.jpg");
+  /*background-repeat: no-repeat;*/
+  background-size: contain;
+  background-attachment: fixed;
   color: white;
 }
 
-#response, #elaboration, #mammaMia, #reaction {
+body .container {
+  border: white 2px solid;
+  padding: 15px 15px 15px 15px;
+  background-color: red;
+  margin-top: 5em;
+}
+
+#response, #elaboration, #mammaMia, #reaction, #toppings-section {
   display: none;
 }
 
@@ -18,4 +28,63 @@ body {
 .btn-secondary {
   background: white;
   color: grey;
+}
+
+#size {
+  max-width: 350px;
+}
+
+img {
+float: right;
+max-width: 40em;
+height: auto;
+}
+
+ #chef3 {
+  width: 25em;
+  height: auto;
+}
+
+#size {
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 423px) {
+  #chef1{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  #chef2{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 386px) {
+  #chef3{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #chef1 {
+    width: 20em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #chef2 {
+    width: 30em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  img {
+    padding-bottom: 15px;
+  }
+}
+
+#header {
+margin-left: 35px;
 }
