@@ -5,6 +5,17 @@ body {
   color: white;
 }
 
-#response {
+#response, #elaboration, #mammaMia, #reaction {
   display: none;
+}
+
+#response {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btn-secondary {
+  background: white;
+  color: grey;
 }

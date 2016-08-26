@@ -10,7 +10,6 @@ function Pizza() {
 }
 
 Pizza.prototype.configurePrice = function() {
-debugger
   standard = 2;
   if (this.size === "slice") {
     sizeMultiplier = 1;
@@ -40,7 +39,18 @@ $(document).ready(function() {
     $("#response").show();
   });
 
-  $("button#gratzie").click(function() {
+  $("#order-choice").click(function() {
+    $("#order-section").hide();
+    $("#reaction").show();
+  });
+
+  $("#whatever").click(function() {
+    $("#reaction").hide();
+    $("#elaboration").show();
+    $("#mammaMia").show();
+  });
+
+  $("#gratzie").click(function() {
     location.reload();
   });
 
