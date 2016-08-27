@@ -60,7 +60,7 @@ margin-left: 35px;
 }
 
 audio {
-  margin: 10px 0 0 10%;
+  margin: 10px 0 0 20%;
 }
 
 @media only screen and (max-width: 423px) {
@@ -96,5 +96,11 @@ audio {
 @media only screen and (max-width: 1000px) {
   img {
     padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  audio {
+    margin-left: 10%;
   }
 }
