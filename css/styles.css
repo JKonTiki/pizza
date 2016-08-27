@@ -25,6 +25,12 @@ body .container {
   width: 50%;
 }
 
+a {
+color: white;
+text-decoration: none;
+}
+
+
 .btn-secondary {
   background: white;
   color: grey;
