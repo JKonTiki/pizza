@@ -64,7 +64,8 @@ margin-left: 35px;
 }
 
 audio {
-  margin: 10px 0 0 20%;
+  margin-top: 10px;
+  margin-left: 400px;
 }
 
 @media only screen and (max-width: 423px) {
