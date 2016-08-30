@@ -10,6 +10,12 @@ Users begin the experience by loading the page. They then enter into a highly im
 
 ## Specs
 
+* It can read size input and calculate it into a price returned to the user
+  * Example Input: a small pizza
+  * Example Output: [price *= 3]
+* It can read user topping selections and calculate them as members of an array
+  * Example Input: pepperoni and cheese on a small pizza
+  * Example Output: [price += (number of toppings)*.50]
 * It can read user inputs and calculate them into a price returned to the user
   * Example Input: pepperoni and cheese on a small pizza
   * Example Output: "$7.00"
